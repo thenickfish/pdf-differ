@@ -18,5 +18,8 @@
   "homepage": "https://github.com/thenickfish/pdf-differ#readme",
   "dependencies": {
     "pdf2json": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.4"
   }
 }
