@@ -5,6 +5,7 @@ export class StringifyStream extends Transform {
     super({ objectMode: true });
   }
   _transform(obj: any, encoding: string, callback: Function) {
+    console.log(obj);
     this.push(JSON.stringify(obj));
     callback();
   }

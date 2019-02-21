@@ -1,3 +1,0 @@
-class ComparePdf {
-  compare(pdfPair) {}
-}
